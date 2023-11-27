@@ -102,6 +102,8 @@ Então, da próxima vez que estiver desenvolvendo e pensar no Observer, imagine 
 
 “ Uti­lize o pa­drão quando al­guns ob­je­tos em sua apli­ca­ção devem ob­ser­var ou­tros, mas ape­nas por um tempo li­mi­tado ou em casos específicos.”
 
+################################################################################################
+
 # STATE
 O padrão de projeto State permite que um objeto altere o seu comportamento quando o seu estado interno muda. O objeto parecerá ter mudado de classe.
 
@@ -120,4 +122,23 @@ Resumindo:
 “Uti­lize o pa­drão State quando você tem um ob­jeto que se com­porta de ma­neira di­fe­rente de­pen­dendo do seu es­tado atual, quando o nú­mero de es­ta­dos é enorme, e quando o có­digo es­tado es­pe­cí­fico muda com frequência.”
 
 “Uti­lize o pa­drão quando você tem uma classe po­pu­lada com con­di­ci­o­nais gi­gan­tes que al­te­ram como a classe se com­porta de acordo com os va­lo­res atu­ais dos cam­pos da classe.”
+
+################################################################################################
+
+## Chain of Responsibility
+
+Ah, o design Chain of Responsibility, o herói das responsabilidades que ninguém quer assumir! Imagine uma fila de colegas de trabalho, cada um com uma desculpa hilária para passar a tarefa para o próximo. É como se fosse um jogo de "passe adiante", mas no mundo corporativo.
+
+No design Chain of Responsibility, você tem uma cadeia de objetos, cada um com a habilidade de lidar com uma parte específica do trabalho. Se um objeto não consegue lidar com a responsabilidade, ele simplesmente passa para o próximo da fila, e assim por diante, até que a tarefa seja realizada ou todos desistam e vão tomar um café.
+
+É como se cada objeto na cadeia fosse um super-herói especializado em uma habilidade única, mas nenhum deles quer lidar com todos os problemas de uma vez. Um é bom em aprovar despesas, outro em lidar com relatórios, e assim por diante. Juntos, formam a Liga da Corrente de Responsabilidade, prontos para enfrentar os desafios do escritório.
+
+Então, da próxima vez que precisar resolver um problema complicado, chame a Corrente de Responsabilidade e deixe os super-heróis corporativos cuidarem das tarefas, um elo de cada vez! 🦸‍♂️💼
+
+Resumo:
+
+“Também conhecido como: CoR, Corrente de responsabilidade, Corrente de comando, Chain of command”
+“é um pa­drão de pro­jeto com­por­ta­men­tal que per­mite que você passe pe­di­dos por uma cor­rente de han­dlers. Ao re­ce­ber um pe­dido, cada han­dler de­cide se pro­cessa o pe­dido ou o passa adi­ante para o pró­ximo han­dler na corrente.”
+“Uti­lize o pa­drão Chain of Res­pon­si­bi­lity quando é es­pe­rado que seu pro­grama pro­cesse di­fe­ren­tes tipos de pe­di­dos em vá­rias ma­nei­ras, mas os exa­tos tipos de pe­di­dos e suas sequên­cias são des­co­nhe­ci­dos de antemão.”
+“Uti­lize o pa­drão quando é es­sen­cial exe­cu­tar di­ver­sos han­dlers em uma ordem específica.”
 
