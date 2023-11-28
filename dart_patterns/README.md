@@ -142,3 +142,12 @@ Resumo:
 “Uti­lize o pa­drão Chain of Res­pon­si­bi­lity quando é es­pe­rado que seu pro­grama pro­cesse di­fe­ren­tes tipos de pe­di­dos em vá­rias ma­nei­ras, mas os exa­tos tipos de pe­di­dos e suas sequên­cias são des­co­nhe­ci­dos de antemão.”
 “Uti­lize o pa­drão quando é es­sen­cial exe­cu­tar di­ver­sos han­dlers em uma ordem específica.”
 
+################################################################################################
+
+## Iterator
+O Iterator é tipo o GPS do mundo da programação. Ele guia você por uma coleção de objetos sem que você precise saber os detalhes internos do caminho. É como ter um amigo que diz: "Vire à direita aqui, ignore aquele obstáculo estranho e, oh, cuidado com o buraco de bugs à frente!" Basicamente, o Iterator faz a navegação no código ser tão suave quanto um passeio de unicórnio no parque. 🚀🦄
+
+“O Ite­ra­tor é um pa­drão de pro­jeto com­por­ta­men­tal que per­mite a você per­cor­rer ele­men­tos de uma co­le­ção sem expor as re­pre­sen­ta­ções dele (lista, pilha, ár­vore, etc.)”
+
+“Uti­lize o pa­drão Ite­ra­tor quando sua co­le­ção tiver uma es­tru­tura de dados com­plexa por de­baixo dos panos, mas você quer es­con­der a com­ple­xi­dade dela de seus cli­en­tes (seja por mo­ti­vos de con­ve­ni­ên­cia ou segurança).”
+

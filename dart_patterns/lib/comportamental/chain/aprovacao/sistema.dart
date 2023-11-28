@@ -5,6 +5,8 @@
 
 // Define the SolicitacaoDesconto class before the ManipuladorDesconto classes
 
+// ignore_for_file: constant_identifier_names
+
 class Pedido {
   final String produto;
   final double valor;
@@ -35,8 +37,8 @@ class DescontoAte10Porcento extends ManipuladorDesconto {
     }
   }
    @override
-  setProximo(ManipuladorDesconto desconto) {
-    _proximoNivel = desconto;
+  setProximo(ManipuladorDesconto solicitacao) {
+    _proximoNivel = solicitacao;
   }
 
 }
@@ -64,7 +66,6 @@ class DescontoAte20Porcento extends ManipuladorDesconto {
 
 class DescontoAte30Porcento extends ManipuladorDesconto {
   static const double LIMITE_DESCONTO = 30.0;
-  late ManipuladorDesconto _proximoNivel;
 
   @override
   void calcula(Pedido pedido) {
@@ -78,8 +79,7 @@ class DescontoAte30Porcento extends ManipuladorDesconto {
     }
   }
   @override
-  setProximo(ManipuladorDesconto desconto) {
-    _proximoNivel = desconto;
+  setProximo(ManipuladorDesconto solicitacao) {
   }
 }
 
