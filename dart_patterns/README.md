@@ -162,3 +162,9 @@ Então, o Visitor é tipo aquele amigo que chega na sua casa e diz: "Ei, eu sei 
 Mas não se engane, o Visitor é educado. Ele não chega quebrando portas, ele utiliza uma interface amigável para entrar e interagir com diferentes partes do seu código, deixando um rastro de funcionalidades por onde passa. É meio como um turista que tira fotos em cada ponto turístico do seu sistema.
 
 No final das contas, o padrão Visitor é como um convidado surpresa que traz novas funcionalidades para a sua aplicação sem perturbar a ordem da casa. Então, da próxima vez que o Visitor aparecer no seu código, abra as portas (ou interfaces) e deixe-o fazer sua visita peculiar!
+
+“Uti­lize o Vi­si­tor quando você pre­cisa fazer uma ope­ra­ção em todos os ele­men­tos de uma es­tru­tura de ob­je­tos com­plexa (por exem­plo, uma ár­vore de objetos).”
+“Uti­lize o Vi­si­tor para lim­par a ló­gica de ne­gó­cio de com­por­ta­men­tos auxiliares.”
+“Uti­lize o pa­drão quando um com­por­ta­mento faz sen­tido ape­nas den­tro de al­gu­mas clas­ses de uma uma hi­e­rar­quia de classe, mas não em outras.”
+
+
