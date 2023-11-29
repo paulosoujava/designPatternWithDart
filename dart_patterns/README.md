@@ -151,3 +151,14 @@ O Iterator é tipo o GPS do mundo da programação. Ele guia você por uma cole�
 
 “Uti­lize o pa­drão Ite­ra­tor quando sua co­le­ção tiver uma es­tru­tura de dados com­plexa por de­baixo dos panos, mas você quer es­con­der a com­ple­xi­dade dela de seus cli­en­tes (seja por mo­ti­vos de con­ve­ni­ên­cia ou segurança).”
 
+
+################################################################################################
+
+## Visitor
+Ah, o padrão Visitor, o mestre das visitas inesperadas no mundo do design de software! Imagine se o seu código fosse uma casa e, de repente, o Visitor bate à porta, querendo entrar e bagunçar tudo.
+
+Então, o Visitor é tipo aquele amigo que chega na sua casa e diz: "Ei, eu sei que você tem uma estrutura fixa aqui, mas que tal eu entrar e mexer nas suas coisas sem você precisar mudar nada?". É como se fosse um hóspede que consegue se infiltrar em qualquer lugar do seu código sem que você precise modificar as classes existentes.
+
+Mas não se engane, o Visitor é educado. Ele não chega quebrando portas, ele utiliza uma interface amigável para entrar e interagir com diferentes partes do seu código, deixando um rastro de funcionalidades por onde passa. É meio como um turista que tira fotos em cada ponto turístico do seu sistema.
+
+No final das contas, o padrão Visitor é como um convidado surpresa que traz novas funcionalidades para a sua aplicação sem perturbar a ordem da casa. Então, da próxima vez que o Visitor aparecer no seu código, abra as portas (ou interfaces) e deixe-o fazer sua visita peculiar!
