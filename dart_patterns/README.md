@@ -168,3 +168,9 @@ No final das contas, o padrão Visitor é como um convidado surpresa que traz no
 “Uti­lize o pa­drão quando um com­por­ta­mento faz sen­tido ape­nas den­tro de al­gu­mas clas­ses de uma uma hi­e­rar­quia de classe, mas não em outras.”
 
 
+################################################################################################
+
+## Commnad
+"Patter Command é como um maestro para o seu código, regendo a orquestra de zeros e uns com estilo! Com esse comando, você dá as cartas e faz seu código dançar ao som das suas instruções. É a batida divertida que transforma linhas de código em uma festa algorítmica!"
+
+Encapsula uma solicitação como um objeto, isso lhe permite parametrizar clientes com diferentes solicitações, enfileirar ou registrar (log) solicitações e suportar solicitações que podem ser desfeitas.
