@@ -174,3 +174,23 @@ No final das contas, o padrão Visitor é como um convidado surpresa que traz no
 "Patter Command é como um maestro para o seu código, regendo a orquestra de zeros e uns com estilo! Com esse comando, você dá as cartas e faz seu código dançar ao som das suas instruções. É a batida divertida que transforma linhas de código em uma festa algorítmica!"
 
 Encapsula uma solicitação como um objeto, isso lhe permite parametrizar clientes com diferentes solicitações, enfileirar ou registrar (log) solicitações e suportar solicitações que podem ser desfeitas.
+
+################################################################################################
+## Mediator
+
+Ah, o padrão Mediator, o cupido do mundo do design de software! Imagine uma festa cheia de objetos, todos querendo se comunicar, mas sem o Mediator, isso vira uma bagunça! O Mediator é tipo o anfitrião da festa, controlando quem fala com quem, evitando dramas e garantindo que todos se entendam sem criar um caos digno de novela mexicana no código. Ele é como o mestre da cerimônia que mantém a ordem na pista de dança caótica do seu software! Cheers para o mediador, o herói discreto do universo de design! 🎉
+
+“O Me­di­a­tor é um pa­drão de pro­jeto com­por­ta­men­tal que per­mite que você re­duza as de­pen­dên­cias caó­ti­cas entre ob­je­tos. O pa­drão res­tringe co­mu­ni­ca­ções di­re­tas entre ob­je­tos e os força a co­la­bo­rar ape­nas atra­vés do ob­jeto mediador.”
+
+“Uti­lize o pa­drão Me­di­a­tor quando é di­fí­cil mudar al­gu­mas das clas­ses por­que elas estão fir­me­mente aco­pla­das a vá­rias ou­tras classes.”
+
+“Uti­lize o pa­drão quando você não pode reu­ti­li­zar um com­po­nente em um pro­grama di­fe­rente por­que ele é muito de­pen­dente de ou­tros componentes.”
+
+“Uti­lize o Me­di­a­tor quando você se en­con­trar cri­ando um monte de sub­clas­ses para com­po­nen­tes ape­nas para reu­ti­li­zar algum com­por­ta­mento bá­sico em vá­rios contextos.”
+
+################################################################################################
+## Memento
+
+“O Me­mento é um pa­drão de pro­jeto com­por­ta­men­tal que per­mite que você salve e res­taure o es­tado an­te­rior de um ob­jeto sem re­ve­lar os de­ta­lhes de sua im­ple­men­ta­ção.”
+
+Ah, o padrão Memento, o "backup emocional" do mundo do design de software! É como um amigo confiável que guarda todos os seus segredos, mas para objetos em vez de pessoas. Imagina só: seu objeto está lá, fazendo suas coisas, e de repente diz: "Ei, Memento, anota aí como eu tava agora, porque eu posso querer voltar pra esse momento depois, sabe?". É como se fosse um "Ctrl+Z" para objetos, permitindo que eles voltem no tempo sem dramas ou arrependimentos. Padrão Memento: porque até objetos merecem uma segunda chance! 🕰️✨
